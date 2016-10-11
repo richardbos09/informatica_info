@@ -1,0 +1,15 @@
+.top-bar, .top-bar ul {
+  background-color: #C6002A;
+}
+
+.menu > li > a {
+  color: white;
+}
+
+h5.subtitle {
+  color: #c6002a;
+}
+
+ul {
+  list-style-type: none;
+}
