@@ -9,6 +9,10 @@
 h5.subtitle {
   color: #c6002a;
 }
+h5.subtitle-short {
+  color: #c6002a;
+  font-size: 1rem;
+}
 h6 {
   font-size: 1.25rem;
 }
