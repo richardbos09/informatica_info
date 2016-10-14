@@ -1,22 +1,24 @@
-only screen and (max-width: 760px),
+@media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-		
+	#table2 > table, thead, tbody, th, td, tr { 
+		display: block;
+			
+	}
+	
+	#table2 > tbody, td{
+		border: 1px solid black; 	
 	}
 	
 	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
+	#table2 > td { 
 		border: none;
 		border-bottom: 1px solid #eee; 
 		position: relative;
 		padding-left: 50%; 
 	}
 	
-	td:before { 
+	#table2 > td:before { 
 		position: absolute;
 		top: 6px;
 		left: 6px;
@@ -24,22 +26,19 @@ only screen and (max-width: 760px),
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
-
-}
 	
-	@media only screen and (max-width:720px){
-              #wrap {
+    #wrap {
 		display:block !important;
-		
 	}
-    }
+}
+
+
+  
+#table2 > tbody, td{
+	border: 1px solid black; 	
+}
 
 #wrap {
-display: flex;
-}
-
-}
-  #wrap {
   display: flex;
 }
 
