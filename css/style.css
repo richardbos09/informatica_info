@@ -9,6 +9,9 @@
 h5.subtitle {
   color: #c6002a;
 }
+h6 {
+  font-size: 1.25rem;
+}
 
 ul {
   list-style-type: none;
